@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './helloWorld.css';
-import './helloWorld';
-import App from './App';
+import HelloWorld from './HelloWorld';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <helloWorld />
+    <HelloWorld />
   </React.StrictMode>,
   document.getElementById('root')
 );

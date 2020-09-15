@@ -1,7 +1,7 @@
 import React from 'react';
 import './helloWorld.css';
 
-function helloWorld(){
+function HelloWorld(){
     return (
         <div className="body">
             <header>
@@ -13,6 +13,5 @@ function helloWorld(){
     );
 }
 
-// ? what does this do?
-export default helloWorld;
+export default HelloWorld;
 
