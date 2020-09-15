@@ -6,7 +6,7 @@ function HelloWorld(){
         <div className="body">
             <header>
                 <p>
-                    Hello world, it's <code>me!</code>
+                    Hello world, it's me!
                 </p>
             </header>
         </div>
