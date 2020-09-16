@@ -1,8 +1,9 @@
 import React from 'react';
 import './helloWorld.css';
 
-function HelloWorld(){
+function PageTitle(){
     return (
+        //another container in index.js
         <div className="container">
         <div className="body">
             <header>
@@ -15,5 +16,5 @@ function HelloWorld(){
     );
 }
 
-export default HelloWorld;
+export default PageTitle;
 

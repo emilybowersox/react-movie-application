@@ -2,15 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './helloWorld.css';
-import HelloWorld from './HelloWorld';
+import PageTitle from './pageTitle';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
-import MovieSearchComponent from "./movieSearchComponent";
+import MovieSearch from "./movieSearch";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HelloWorld />
-    <MovieSearchComponent />
+      <div className="container">
+    <PageTitle />
+    <MovieSearch />
+      </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
