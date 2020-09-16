@@ -3,12 +3,14 @@ import './helloWorld.css';
 
 function HelloWorld(){
     return (
+        <div className="container">
         <div className="body">
             <header>
-                <p>
-                    Hello world, it's me!
-                </p>
+                <h1 className="title">
+                    React Movie Search
+                </h1>
             </header>
+        </div>
         </div>
     );
 }
