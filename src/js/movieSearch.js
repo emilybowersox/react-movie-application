@@ -13,11 +13,15 @@ export default function MovieSearch() {
         //es6 template literals- the backticks ` ` to reference the value of the variable in ${}
         const url = `"https://api.themoviedb.org/3/search/movie?api_key=" + apiKey + "&language=en-US&query=${query}&page=1&include_adult=false"`;
 
-        //asynch await
-        const res = await fetch(url);
-        //converting the raw response to data
-        const data = await res.json();
-        console.log(data);
+        try {
+            //asynch await
+            const res = await fetch(url);
+            //converting the raw response to data
+            const data = await res.json();
+            console.log(data);
+        } catch(err){
+            console.log(err);
+        }
     }
 
     return (
