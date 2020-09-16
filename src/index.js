@@ -5,10 +5,12 @@ import './helloWorld.css';
 import HelloWorld from './HelloWorld';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
+import MovieSearchComponent from "./movieSearchComponent";
 
 ReactDOM.render(
   <React.StrictMode>
     <HelloWorld />
+    <MovieSearchComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
