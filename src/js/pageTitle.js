@@ -1,5 +1,5 @@
 import React from 'react';
-import './helloWorld.css';
+import '../css/style.css';
 
 function PageTitle(){
     return (

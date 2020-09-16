@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './helloWorld.css';
+import '../css/index.css';
+import '../css/style.css';
 import PageTitle from './pageTitle';
 // import App from './App';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from '../serviceWorker';
 import MovieSearch from "./movieSearch";
 
 ReactDOM.render(
