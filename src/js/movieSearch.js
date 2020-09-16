@@ -3,8 +3,8 @@ import '../css/style.css';
 
 export default function MovieSearch() {
     return (
-        <form action="" className="form">
-            <label htmlFor="query" className="label">Movie Name:</label>
+        <form className="form" action="">
+            <label className="label" htmlFor="query">Movie Name:</label>
             <input className="input" type="text" name="query" placeholder="i.e. Booksmart"/>
             <button className="button" type="submit">Search</button>
         </form>

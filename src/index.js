@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../css/index.css';
-import '../css/style.css';
-import PageTitle from './pageTitle';
+import './css/index.css';
+import './css/style.css';
+import PageTitle from './js/pageTitle';
 // import App from './App';
-import * as serviceWorker from '../serviceWorker';
-import MovieSearch from "./movieSearch";
+import * as serviceWorker from './serviceWorker';
+import MovieSearch from "./js/movieSearch";
 
 ReactDOM.render(
   <React.StrictMode>
